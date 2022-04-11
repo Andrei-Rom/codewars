@@ -1,9 +1,9 @@
-package com.codewars.listfiltering;
+package com.codewars.kyu7.listfiltering;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Kata {
+public class ListFiltering {
 
     public static void main(String[] args) {
         List<Object> list = new ArrayList<>();

@@ -13,6 +13,7 @@ public class BestTravel {
     }
 
     public static Integer chooseBestSum(int t, int k, List<Integer> ls) {
+        if (ls.size() < k) return null;
         // t - maxDistance
         // k - numberOfTowns
         int result = 0;
@@ -27,10 +28,10 @@ public class BestTravel {
             }
         }
 
-        return result == 0 ? null : result;
+        return result;
     }
 
-    private static void helper(List<int[]> combinations, int data[], int start, int end, int index) {
+    private static void helper(List<int[]> combinations, int[] data, int start, int end, int index) {
         if (index == data.length) {
             int[] combination = data.clone();
             combinations.add(combination);

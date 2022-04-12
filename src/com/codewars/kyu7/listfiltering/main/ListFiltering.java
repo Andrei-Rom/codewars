@@ -1,4 +1,4 @@
-package com.codewars.kyu7.listfiltering;
+package com.codewars.kyu7.listfiltering.main;
 
 import java.util.ArrayList;
 import java.util.List;

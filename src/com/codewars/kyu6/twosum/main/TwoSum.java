@@ -1,4 +1,4 @@
-package com.codewars.kyu6.twosum;
+package com.codewars.kyu6.twosum.main;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.codewars.kyu6.thesupermarketqueue;
+package com.codewars.kyu6.thesupermarketqueue.main;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.codewars.kyu6.writenumberinexpandedform;
+package com.codewars.kyu6.writenumberinexpandedform.main;
 
 public class WriteNumberInExpandedForm {
     public static void main(String[] args) {

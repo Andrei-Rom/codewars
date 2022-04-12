@@ -1,4 +1,4 @@
-package com.codewars.kyu6.camelcasemethod;
+package com.codewars.kyu6.camelcasemethod.main;
 
 import java.util.ArrayList;
 import java.util.Arrays;

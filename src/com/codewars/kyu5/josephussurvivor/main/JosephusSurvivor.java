@@ -6,23 +6,33 @@ import java.util.List;
 public class JosephusSurvivor {
 
     public static int josephusSurvivor(final int n, final int k) {
-        // n = quantity of elements
-        int step = k - 1;
-        List<Integer> list = new ArrayList<>();
-        for (int i = 1; i <= n; i++) {
-            list.add(i);
+
+        // Best Practice
+        int remaining = 0;
+        for (int i = 2; i <= n; i++) {
+            remaining = (remaining + k) % i;
         }
 
-        int j = 0;
-        int z = n;
-        for (int i = 0; i < n - 1; i++) {
-            j += step;
-            while (j > z-1) {
-                j -= z;
-            }
-            list.remove(j);
-            z --;
-        }
-        return list.get(0);
+        return remaining + 1;
+
+
+        // n = quantity of elements
+//        int step = k - 1;
+//        List<Integer> list = new ArrayList<>();
+//        for (int i = 1; i <= n; i++) {
+//            list.add(i);
+//        }
+//
+//        int j = 0;
+//        int z = n;
+//        for (int i = 0; i < n - 1; i++) {
+//            j += step;
+//            while (j > z-1) {
+//                j -= z;
+//            }
+//            list.remove(j);
+//            z --;
+//        }
+//        return list.get(0);
     }
 }

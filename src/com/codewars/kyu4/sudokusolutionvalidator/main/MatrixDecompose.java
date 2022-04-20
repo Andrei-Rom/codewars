@@ -41,7 +41,7 @@ public class MatrixDecompose {
                 for (int i = 0; i < 3; i++) {
                     System.out.print(gridLine[i] + " ");
                 }
-                System.out.println();
+                System.out.println("    ");
             }
             System.out.println("========");
         }

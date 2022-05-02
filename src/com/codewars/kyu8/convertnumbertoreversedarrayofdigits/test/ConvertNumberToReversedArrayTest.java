@@ -1,9 +1,9 @@
-package com.codewars.kyu8.convertNumberToReversedArrayOfDigits.test;
+package com.codewars.kyu8.convertnumbertoreversedarrayofdigits.test;
 
 
 
 
-import com.codewars.kyu8.convertNumberToReversedArrayOfDigits.main.ConvertNumberToReversedArray;
+import com.codewars.kyu8.convertnumbertoreversedarrayofdigits.main.ConvertNumberToReversedArray;
 import org.junit.Test;
         import static org.junit.Assert.assertArrayEquals;
 

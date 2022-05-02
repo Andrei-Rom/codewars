@@ -1,4 +1,4 @@
-package com.codewars.kyu8.convertNumberToReversedArrayOfDigits.main;
+package com.codewars.kyu8.convertnumbertoreversedarrayofdigits.main;
 
 public class ConvertNumberToReversedArray {
 

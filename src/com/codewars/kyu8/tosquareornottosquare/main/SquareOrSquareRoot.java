@@ -1,4 +1,4 @@
-package com.codewars.kyu8.toSquareOrNotToSquare.main;
+package com.codewars.kyu8.tosquareornottosquare.main;
 
 import java.util.stream.IntStream;
 

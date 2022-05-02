@@ -1,9 +1,9 @@
-package com.codewars.kyu8.toSquareOrNotToSquare.test;
+package com.codewars.kyu8.tosquareornottosquare.test;
 
-import com.codewars.kyu8.toSquareOrNotToSquare.main.SquareOrSquareRoot;
+import com.codewars.kyu8.tosquareornottosquare.main.SquareOrSquareRoot;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
 import java.util.Arrays;
 
 public class SquareOrSquareRootTest {

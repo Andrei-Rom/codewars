@@ -2,6 +2,7 @@ package com.codewars.kyu5.weightforweight.main;
 
 import java.math.BigInteger;
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class WeightSort {
 
@@ -37,6 +38,16 @@ public class WeightSort {
             return BigInteger.valueOf(sum1).compareTo(BigInteger.valueOf(sum2));
         });
 
+        return String.join(" ", strings);
+    }
+
+    public static String orderWeightStream(String strng) {
+        String[] strings = strng.split(" ");
+        Arrays.sort(strings, (a, b) -> {
+            int aWeight = a.chars().map(Character::getNumericValue).sum();
+            int bWeight = b.chars().map(Character::getNumericValue).sum();
+            return aWeight - bWeight != 0 ? aWeight - bWeight : a.compareTo(b);
+        });
         return String.join(" ", strings);
     }
 }
